@@ -1,1 +1,2 @@
-execute as @a unless score @s left_world matches 0.. run scoreboard players set @s left_world 1
+execute as @a if score @s left_world matches 1.. run advancement revoke @s only worldjoinprompt:join_world
+scoreboard players set @a left_world 0
