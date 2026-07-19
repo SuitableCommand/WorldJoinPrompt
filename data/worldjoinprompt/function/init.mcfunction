@@ -1,0 +1,2 @@
+function worldjoinprompt:scoreboard/init
+function worldjoinprompt:storage/init
